@@ -1,8 +1,11 @@
+#Coletando peso e altura e armazenando
 altura = float(input("Digite sua altura em metros: "))
 peso = float(input("Digite seu peso em quilograma: "))
 
+#Calculando o IMC
 imc = round(peso/(altura**2),2)
 
+#Verificando em que intervalo o valor calculado do IMC se encaixa e informado o status correspondente
 if imc <= 18.5:
     print("Seu IMC é de: ",imc,". Esse valor é cosiderado abaixo do normal.")
 elif imc >= 18.6 and imc <= 24.9:
