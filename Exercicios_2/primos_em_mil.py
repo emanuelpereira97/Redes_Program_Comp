@@ -1,3 +1,4 @@
+#Em andamento
 while True: 
     print("Digite 0 para sair...")
     valor = int(input("Digite um numero inteiro: "))
