@@ -1,5 +1,6 @@
 import random
 
+
 #Gerando um numero aleatório e armazenando
 numero_secreto = random.randint(1,100)
 

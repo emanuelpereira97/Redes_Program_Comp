@@ -1,3 +1,4 @@
+
 #Coletando peso e altura e armazenando
 altura = float(input("Digite sua altura em metros: "))
 peso = float(input("Digite seu peso em quilograma: "))
