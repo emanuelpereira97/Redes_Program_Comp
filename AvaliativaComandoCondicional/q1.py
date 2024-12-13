@@ -4,7 +4,8 @@ altura = float(input("Digite sua altura em metros: "))
 peso = float(input("Digite seu peso em quilograma: "))
 
 #Calculando o IMC
-imc = round(peso/(altura**2),2)
+imc = round(peso/(altura**2),1)
+print(imc)
 
 #Verificando em que intervalo o valor calculado do IMC se encaixa e informado o status correspondente
 if imc <= 18.5:

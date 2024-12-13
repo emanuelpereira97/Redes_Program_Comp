@@ -28,4 +28,9 @@ elif media_disciplina >= 20 and media_disciplina < 60:
     elif media_final3 >= 60 and media_final3 >= media_final1 and media_final3 >= media_final2:
         print("Sua média nessa disciplina é de", media_final3,". Parabéns, você foi aprovado.")
     else:
-        print("Sua media nessa disciplina foi de: ",media_disciplina,", Você foi reporvado.")
+        if  media_final1 <= 60 and media_final1 <= media_final2 and media_final1<= media_final3:
+            print("Sua média nessa disciplina é de", media_final1,". Lamento, você foi reportado.")
+        elif media_final2 <= 60 and media_final2 <= media_final1 and media_final2 <= media_final3:
+            print("Sua média nessa disciplina é de", media_final2,". Lamento, você foi reportado.")
+        elif media_final3 <= 60 and media_final3 <= media_final1 and media_final3 <= media_final2:
+            print("Sua média nessa disciplina é de", media_final3,". Lamento, você foi reportado.")
