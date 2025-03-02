@@ -15,4 +15,7 @@ while True: #loop principal, o jogo roda aqui
         if event.type == QUIT:
             pygame.quit()
             exit()
+    pygame.draw.rect(tela,(255,0,125), (320,240,30,50)) #desenha retangulo p(onde,cor,(posição xy, Largura e altura))
+    pygame.draw.circle(tela,(255,255,255), (160,120), 35) #desenha um circulo, paramentros semelhantes, troca L*H por raio
+    pygame.draw.line(tela,(100,120,140),(500,0),(0,400),5) #desenha linha, ponto inicial, ponto final e espessura
     pygame.display.update() #atualiza a tela a cada interação
